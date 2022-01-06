@@ -1,6 +1,8 @@
 # Développer-l'interface-statique-du-restaurant-YouCode
+***
 
-##Project context
+## Project context
+***
 
 Restaurant Youcode vient d'ouvrir ses portes. il a besoin d'un système de gestion de son restaurant en ligne permettant de répondre aux histoires suivants :
 
@@ -13,7 +15,8 @@ Autant que Staff restaurant, je peux voir les statistique de satisfaction.
 Autant que Administrateur, je peux me connecter afin de gérer les utilisateurs (CRUD).
 Autant que Administrateur, je peux gérer les droits de sélection du plat du jour afin de pouvoir enlever ce droit aux utilisateur absent.
 
-##Pré-requis
+## Pré-requis
+***
 
 Aquérir les compétences C2 et C1
 Utilisez HTML et CSS - la majeure partie de votre travail doit être constituée de HTML et CSS écrits par votre équipe.
@@ -26,7 +29,8 @@ Chaque membre de l'équipe doit avoir des commits chaque jour.
 Créer un contenu original - votre contenu doit être écrit / créé par votre équipe, et non copié-collé.
 Vous pouvez prendre et adopter des idées d'autres sites, mais évitez le copier/coller direct de leur contenu.
 
-##Déroulement :
+## Déroulement 
+***
 
 Préparer votre Workflow (Scrum board - Github - Environement de travail).
 Réaliser maquette Low-fidelity
@@ -41,7 +45,8 @@ Travail en équipe.
 
 ​
 
-##Performance criteria
+## Performance criteria
+***
 
 Site (structure, réalisation technique, mise en page, conception, convivialité)
 Contenu (qualité du contenu)
