@@ -273,8 +273,8 @@ header{
     .title-cart span{
         color: gray;
         font-size: 15px;
-        padding: 20px 0px;
-        margin-top: 20px;
+        /* padding: 20px 0px;
+        margin-top: 20px; */
     }
 
 
@@ -327,5 +327,13 @@ header{
 
     .content-header-top-2{
         display: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 700px) and  (max-width: 900px) {
+    .cart-day{
+        height: auto;
     }
 }
