@@ -121,16 +121,15 @@ header{
 .btn-1 {
     text-align: center;
     display: inline-block;
-    padding: 15px 40px;
     border: 1px solid #fff;
     cursor: pointer;
     letter-spacing: 2px;
     position:relative;
     overflow:hidden;
-    margin: 0 20px;
     background-color: #FFD166;
     border-radius: 10px;
     text-transform: capitalize;
+    margin-left: 10px;
 }
 
 
@@ -175,6 +174,43 @@ header{
     font-size: 35px;
     text-transform: capitalize;
 }
+
+
+
+
+.name-users{
+    font-size: 33px;
+    margin: 10px;
+}
+
+.cart-sher{
+    display: flex;
+}
+
+.input-sher{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.cart-sher input{
+    width: 300px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    border-bottom: 2px solid #FFD166;   
+}
+
+.cart-sher button{
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
 
 .content-user{
     width: 100%;
@@ -352,6 +388,35 @@ header{
     
     .crod-icon ul li a i{
         font-size: 20px;
+    }
+
+    .content-user-imag,
+    .content-user-crod, 
+    .content-user-mobel,
+    .content-user-email,
+    .content-user-status,
+    .content-user-cred {
+        width: 60%;
+        margin: 15px 0;
+    }
+
+    .content-user {
+        width: 90%;
+        height: auto;
+        align-items: flex-start;
+        justify-content: left;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+
+    .content-user-hedd{
+        display: none;
+    }
+
+
+    .input-sher {
+        flex-direction: column;
     }
     
 
