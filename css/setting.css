@@ -77,6 +77,57 @@ ul li span{
 }
 
 
+.notification{
+    display: flex;
+}
+
+
+
+.switch {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+  .switch div {
+    position: relative;
+    display: block;
+    background: #eee;
+    width: 50px;
+    border-radius: 50px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+  
+  .fa-adjust {
+    transform: rotate(180deg);
+}
+  
+  .switch input {
+    display: none;
+}
+  
+  .slider {
+      
+    margin-top: 4px;
+    background-color: #999;
+    transition: 0.4s;
+    border-radius: 34px;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    position: relative;
+}
+  
+  input:checked + .slider {
+    transform: translateX(22px);
+    background-color: rgb(103, 103, 213);
+} 
+
+
+
 
 @media only screen and (max-width: 700px) {
 
@@ -111,6 +162,17 @@ ul li span{
         letter-spacing: 1px;
         color: #26547C;
     }
+
+    .logo-title{
+        margin: 0px;
+        font-size: 20px;
+    }
+
+        ul li {
+            padding: 10px;
+            margin: 5px;
+            margin-left: 14px;
+        }
 
     .account{
         width: 100%;
