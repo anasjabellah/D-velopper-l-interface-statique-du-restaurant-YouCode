@@ -1,3 +1,83 @@
+.btn-1 {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position:relative;
+    overflow:hidden;
+    margin: 0 20px;
+    background-color: #FFD166;
+    border-radius: 10px;
+}
+
+
+.btn-1:before {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background : #fff;
+    left: -55px;
+    top: -40px;
+    transform: rotate(37deg);
+    transition: all .3s;
+    opacity: 0.3;
+}
+
+.btn-1 a {
+    padding: 15px 25px;
+}
+
+
+.title-settings{
+    margin: 40px;
+}
+
+.logo-title{
+    margin: 40px;
+    font-size: 20px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 10px;
+    margin: 5px ;
+    margin-left: 145px
+}
+
+ul li span{
+    padding: 10px;
+}
+
+
+.setting button{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px ;
+    background-color: white;
+    border-radius: 20px;
+    border: none;   
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: 20px;
+}
+
+.setting button i{
+    margin-right: 10px;
+}
+
+.setting button span{
+    color: #26547C;
+    text-transform: capitalize;
+}
+
+
+
 @media only screen and (max-width: 700px) {
 
     .content-right{
@@ -94,10 +174,6 @@
         color: #26547C;
         text-transform: capitalize;
     }
-
-
-
-
 
 
 }

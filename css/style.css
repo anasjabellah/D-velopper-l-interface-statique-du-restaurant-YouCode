@@ -116,6 +116,19 @@ nav ul li a img{
     }
 }
 
+
+@media only screen and (min-width : 700px) and (max-width: 900px){
+
+    .content-left{
+        width: 30%;
+    }
+
+    .content-right{
+        width: 70%;
+    }
+}
+
+
 @media only screen and (max-width: 700px) {
 
     body{
